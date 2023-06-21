@@ -14,12 +14,12 @@
     "lint": "next lint",
     "prepare": "husky install",
     "refresh": "rm -rf ./node_modules ./yarn.lock && yarn install",
-    "create-component": "file-templatr -t react-ts-component -p ./components",
-    "create-atom": "file-templatr -t react-ts-component -p ./components/atoms",
-    "create-molecule": "file-templatr -t react-ts-component -p ./components/molecules",
-    "create-organism": "file-templatr -t react-ts-component -p ./components/organisms",
-    "create-module": "file-templatr -t react-ts-component -p ./components/modules",
-    "create-layout": "file-templatr -t react-ts-component -p ./components/layouts"
+    "create-component": "file-templatr -t react-ts-component -p ./src/components",
+    "create-atom": "file-templatr -t react-ts-component -p ./src/components/atoms",
+    "create-molecule": "file-templatr -t react-ts-component -p ./src/components/molecules",
+    "create-organism": "file-templatr -t react-ts-component -p ./src/components/organisms",
+    "create-module": "file-templatr -t react-ts-component -p ./src/components/modules",
+    "create-layout": "file-templatr -t react-ts-component -p ./src/components/layouts"
   },
   "dependencies": {
     "@types/node": "20.3.1",
