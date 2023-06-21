@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "codezombiech.gitignore",
+    "vunguyentuan.vscode-postcss",
+    "csstools.postcss",
+    "bradlc.vscode-tailwindcss",
+    "ph1p.zeit-co-vscode-schemas",
+    "esbenp.prettier-vscode",
+  ],
+}
