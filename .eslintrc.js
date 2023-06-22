@@ -32,7 +32,7 @@ module.exports = {
     'no-unreachable': 1,
     'no-multiple-empty-lines': [ 'error', { max: 1 }],
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': [ 'error' ],
+    '@typescript-eslint/no-unused-vars': [ 'error', { argsIgnorePattern: '^_' }],
     'comma-dangle': [
       'error', {
         arrays: 'always-multiline',
