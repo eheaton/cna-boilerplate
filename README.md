@@ -8,6 +8,15 @@ Additionally, this boilerplate highly recommends (but does not require) using VS
 - [Yarn](https://yarnpkg.com) - `v1.22`
 - (recommended) [VSCode](https://code.visualstudio.com/) - `latest`
 
+## Installation
+Use `yarn create next-app` to clone and setup the boilerplate
+
+```
+$ yarn create next-app --example https://github.com/eheaton/cna-boilerplate
+```
+
+_NOTE: The template is made to use with `yarn` ... `npm` / `npx` can be used, but documentation is geared towards the former_
+
 ## Setup
 
 - From the base of the project directory, run:
